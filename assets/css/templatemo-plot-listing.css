@@ -728,27 +728,6 @@ Banner Style
   margin-top: 15px;
 }
 
-.main-banner ul.categories li .icon {
-  display: block;
-  margin: 0 auto 12px auto;
-  width: 66px;
-  height: 66px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 62px;
-  color: #8d99af;
-  background-color: #fff;
-  transition: all .5s;
-}
-
-.main-banner ul.categories li a:hover .icon {
-  background-color: #2b2d42;
-}
-
-.main-banner ul.categories li .icon img {
-  max-width: 27px;
-}
-
 form#search-form {
   background-color: #fff;
   padding: 0px 0px 0px 30px;
@@ -829,22 +808,6 @@ Popular Categories
   position: relative;
   background-color: #2b2d42;
   border-radius: 7px;
-}
-
-.popular-categories .icon {
-  display: inline-block;
-  width: 66px;
-  height: 66px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 62px;
-  color: #8d99af;
-  background-color: #fff;
-  margin-right: 15px;
-}
-
-.popular-categories .icon img {
-  max-width: 27px;
 }
 
 .popular-categories .naccs .menu div.first-thumb {
@@ -1002,23 +965,6 @@ Recent Listing
   margin-top: 30px;
   display: block;
   margin-bottom: 15px;
-}
-
-.recent-listing .item .right-content span.price .icon {
-  width: 30px;
-  height: 30px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 28px;
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.recent-listing .item .right-content span.price .icon img {
-  max-width: 16px;
-  text-align: center;
-  display: inline-block;
 }
 
 .recent-listing .item .right-content span.details {
@@ -1328,22 +1274,8 @@ responsive
 */
 
 @media (max-width: 1200px) {
-  .popular-categories .icon {
-    margin-left: 50%;
-    transform: translateX(-33px);
-    text-align: center;
-    display: inline-block;
-  }
   .category-post .naccs .menu div.active .thumb {
     position: relative;
-  }
-  .category-post .icon {
-    position: absolute;
-    left: 50%;
-    transform: translateX(15px);
-  }
-  .category-post .top-content .top-icon h4 { 
-    left: 86px;
   }
   form#search-form {
     padding: 30px;
@@ -1413,9 +1345,6 @@ responsive
     float: none;
     width: 100%;
   }
-  .category-post .top-content .top-icon .icon {
-    left: 45%;
-  }
   .recent-listing .item .left-image,
   .listing-page .item .left-image {
     border-bottom-left-radius: 0px;
@@ -1442,9 +1371,6 @@ responsive
   footer .helpful-links {
     margin-bottom: 45px;
   }
-  .category-post .icon {
-    transform: translateX(0px);
-  }
   .category-post .top-content .top-icon,
   .category-post .nacc .thumb .main-white-button a {
     text-align: center;
@@ -1452,9 +1378,6 @@ responsive
   }
   .category-post .nacc .thumb .main-white-button  {
     margin-top: 30px;
-  }
-  .category-post .top-content .top-icon .icon {
-    margin-left: -60px;
   }
   .category-post .top-content .top-icon h4 {
     left: 86px;
@@ -1481,8 +1404,5 @@ responsive
   }
   .header-area .main-nav .menu-trigger {
     right: 15px;
-  }
-  .category-post .icon {
-    transform: translateX(-22px);
   }
 }
